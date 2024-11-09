@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "02 - model-to-app packaging production codebase design"
+version = "0.1.0"
+description = ""
+authors = ["Suraj Yadav <qwertypad7612@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+pydantic-settings = "^2.6.1"
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.36"
+wemake-python-styleguide = "^0.19.2"
+ruff = "^0.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+exclude = [
+    "src/config/.env",
+    "src/db/db.sqlite",
+    "src/logs",
+    "src/model/models"
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"src/config/__init__.py" = ["F401"]

@@ -1,0 +1,130 @@
+2024-11-08 17:01:00.897 | INFO     | __main__:main:13 - Running the application...
+2024-11-08 17:01:00.897 | INFO     | model.model_service:load_model:44 - Model file rf_db_v2 not found.
+2024-11-08 17:01:00.897 | INFO     | model.model_service:load_model:45 - Again building the model...
+2024-11-08 17:01:00.897 | INFO     | model.pipeline.model:build_model:32 - Starting the model building pipeline
+2024-11-08 17:01:00.897 | INFO     | model.pipeline.preparation:prepare_data:91 - Starting pre-processing pipeline
+2024-11-08 17:01:00.897 | INFO     | model.pipeline.collection:load_data_from_db:65 - Extracting table from the database...
+2024-11-08 17:01:00.929 | INFO     | model.pipeline.collection:load_data_from_db:73 - Data extraction successful.
+2024-11-08 17:01:00.944 | INFO     | model.pipeline.preparation:encode_cat_cols:35 - Encoding categorical columns : ['balcony', 'parking', 'furnished', 'garage', 'storage']
+2024-11-08 17:01:00.963 | INFO     | model.pipeline.preparation:parse_garden_col:68 - Parsing 'garden' column
+2024-11-08 17:01:00.966 | INFO     | model.pipeline.model:get_X_y:87 - Get X and y
+2024-11-08 17:01:00.970 | INFO     | model.pipeline.model:build_model:45 - Split data into train and test
+2024-11-08 17:01:00.971 | INFO     | model.pipeline.model:train_model:113 - Training model with Hyperparameter tinning.
+2024-11-08 17:01:08.817 | INFO     | model.pipeline.model:evaluate_model:144 - Evaluating the model
+ Score: 0.7148103920745168
+2024-11-08 17:01:08.863 | INFO     | model.pipeline.model:save_model:166 - Model successfully saved to model\models/rf_db_v2
+2024-11-08 17:01:08.889 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-08 17:01:08.890 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-08 17:01:08.905 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:04:07.997 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:04:07.997 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:04:08.028 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:04:08.028 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:04:08.028 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:04:08.028 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:04:08.054 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:04:08.054 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:22:59.838 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:22:59.838 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:22:59.870 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:22:59.870 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:22:59.870 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:22:59.870 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:22:59.870 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:22:59.870 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:25:35.311 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:25:35.311 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:25:35.326 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:25:35.326 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:25:35.326 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:25:35.326 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:25:35.365 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:25:35.365 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:29:36.395 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:29:36.395 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:29:36.410 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:29:36.410 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:29:36.410 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:29:36.410 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:29:36.425 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:29:36.425 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:34:18.450 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:34:18.450 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:34:18.471 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:34:18.471 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:34:18.476 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:34:18.476 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:34:18.481 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:34:18.481 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:46:48.271 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:46:48.271 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:46:48.286 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:46:48.286 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:46:48.291 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:46:48.291 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:46:48.301 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:46:48.301 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:58:41.270 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:58:41.270 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:58:41.285 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:58:41.285 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:58:41.285 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:58:41.285 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:58:41.285 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:58:41.285 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:59:19.468 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:59:19.468 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 12:59:19.500 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:59:19.500 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 12:59:19.500 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:59:19.500 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 12:59:19.536 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 12:59:19.536 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:06:16.268 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:06:16.268 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:06:16.295 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:06:16.295 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:06:16.295 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:06:16.295 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:06:16.304 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:06:16.304 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:08:10.647 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:08:10.647 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:08:10.665 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:08:10.665 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:08:10.665 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:08:10.665 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:08:10.687 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:08:10.687 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:09:31.699 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:09:31.699 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:09:31.715 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:09:31.715 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:09:31.715 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:09:31.715 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:09:31.754 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:09:31.754 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:17:47.511 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:17:47.511 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:17:47.542 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:17:47.542 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:17:47.542 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:17:47.542 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:17:47.542 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:17:47.542 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:21:57.453 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:21:57.453 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:21:57.468 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:21:57.468 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:21:57.468 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:21:57.468 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:21:57.499 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:21:57.499 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:25:32.264 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:25:32.264 | INFO     | __main__:main:13 - Running the application...
+2024-11-09 13:25:32.296 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:25:32.296 | INFO     | model.model_service:load_model:52 - Model rf_db_v2 loaded successfully.
+2024-11-09 13:25:32.296 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:25:32.296 | INFO     | model.model_service:predict:75 - Making Prediction
+2024-11-09 13:25:32.313 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
+2024-11-09 13:25:32.313 | INFO     | __main__:main:30 - Prediction for input dict_values([85, 2015, 2, 20, 1, 1, 0, 0, 1]): [2051.9515355131416]
