@@ -21,10 +21,10 @@ jobs:
               uses: actions/checkout@v4
             
             - name: List project directory contents
-              run: ls -a -R
+              run: ls -a 
 
             - name: Build Application
-              uses: ./.github/actions/build-application/action.yml
+              uses: ./.github/actions/build-application
 
             - name: Lint with Ruff
               run: poetry run make check
